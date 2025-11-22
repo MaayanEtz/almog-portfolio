@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: 
+    radial-gradient(#ccc 1px, transparent 1px),
+    radial-gradient(#ccc 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links a:hover {
+  color: #555;
+}
+
+.hero {
+  height: 90vh;
+  background: url('/images/hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  background: #111;
+  color: #eee;
+  margin-top: 2rem;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #eee;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #aaa;
+}
