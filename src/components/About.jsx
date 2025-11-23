@@ -6,7 +6,7 @@ export default function About() {
       <p>
         Hi! I’m a 16-year-old photographer who’s just starting out and exploring
         the world through my camera.
-        I’m always learning, experimenting, and trying new styles — and I’m excited to
+        I’m always learning, experimenting, and trying new styles - and I’m excited to
         keep growing and sharing my work with the world.
       </p>
     </section>
