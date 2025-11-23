@@ -26,6 +26,12 @@ body {
   gap: 2rem;
 }
 
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+  }
+}
+
 .nav-links a {
   text-decoration: none;
   font-weight: bold;
